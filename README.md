@@ -10,21 +10,20 @@ Static developer website for JS Innovations and Water Sort Puzzle for Android.
 - `styles.css`: site styling.
 - `app-ads.txt`: AdMob seller file.
 - `assets/water-sort-puzzle-icon.png`: app icon copied from the Android launcher assets.
+- `CNAME`: GitHub Pages custom domain (`jsinnovations.in`).
 
 ## Before Publishing
 
-1. Replace the placeholder publisher ID in `app-ads.txt`:
+1. Confirm `app-ads.txt` matches your AdMob publisher ID (update if it ever changes):
 
    ```txt
-   google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+   google.com, pub-8135378211247182, DIRECT, f08c47fec0942fa0
    ```
 
-   Use your real AdMob publisher ID, for example `pub-1234567890123456`.
-
-2. If you use a custom domain, add a file named `CNAME` in this folder with only your domain:
+2. Confirm `CNAME` matches the hostname you configure in GitHub Pages and DNS:
 
    ```txt
-   example.com
+   jsinnovations.in
    ```
 
 ## GitHub Pages Setup
@@ -39,9 +38,9 @@ Static developer website for JS Innovations and Water Sort Puzzle for Android.
 
 After publishing, confirm these URLs load:
 
-- `https://your-domain.com/`
-- `https://your-domain.com/privacy.html`
-- `https://your-domain.com/support.html`
-- `https://your-domain.com/app-ads.txt`
+- `https://jsinnovations.in/`
+- `https://jsinnovations.in/privacy.html`
+- `https://jsinnovations.in/support.html`
+- `https://jsinnovations.in/app-ads.txt`
 
 Use the same domain in Google Play Console and AdMob app verification.
